@@ -1,9 +1,14 @@
 import sys
-name = sys.argv[1]
 
-if name == "--version":
-    print("KHello version 1.0")
-    print("All rights reverved. Zolla Software Company")
+length = len(sys.argv)
+if length == 2:
+    name = sys.argv[1]
+
+    if name == "--version":
+        print("KHello version 1.0")
+        print("All rights reverved. Zolla Software Company")
+    else:
+        print("Hello", name + "!")
 else:
-    print("Hello", name + "!")
+    print("Enter name")
 
