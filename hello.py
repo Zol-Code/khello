@@ -10,5 +10,5 @@ if length == 2:
     else:
         print("Hello", name + "!")
 else:
-    print("Enter name")
+    print("Please enter your name")
 
